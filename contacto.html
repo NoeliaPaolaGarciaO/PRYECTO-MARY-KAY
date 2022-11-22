@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuentes y tipografía -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="css/desafio.css">
+    <title>Contacto | Noelia García</title>
+    <meta name="description" content="Contáctame si te interesa ser una consultora independiente Mary Kay, adquirir tus productos o recibir asesoría de cuidado y belleza.">
+    <meta name="keywords" content="MARY KAY, ADQUIRIR PRODUCTOS MARY KAY, SER CONSULTORA INDEPENDIENTE MARY KAY">
+</head>
+<body>
+    
+    <!-- Inicio HEADER -->
+    <header class="header container">
+        <div class="row">
+            <div class="header__logo container col-1 col-md-1 col-lg-1">
+                <a href="index.html">
+                    <img src="RECURSOS/mary-kay.jpg" alt="Noelia García Consultora Mary Kay" class="logoMk" href="index.html">
+                </a>
+            </div>  
+
+            <div class="container col-6 col-md-8 col-lg-10">
+                <h1 class="header__h1 fs-2">
+                    <div><span>Noelia García</span></div> Consultora Mary Kay
+                </h1>
+            </div>
+        </div>
+    </header>
+    <!-- Fin HEADER -->
+  
+    <!-- Inicio NAV -->
+    <nav>
+        
+        <section class="menu container-fluid">
+            <ul class="menu__lista column">
+                <li class="centrado"> <a href="index.html" class="menu__link "> HOME </a> </li>
+                <li class="centrado"> <a href="productos.html" class="menu__link "> PRODUCTOS </a> </li>
+                <li class="centrado"> <a href="consultora.html" class="menu__link "> SÉ UNA CONSULTORA </a> </li>
+                <li class="centrado"> <a href="tutoriales.html" class="menu__link "> TUTORIALES </a> </li>
+                <li class="centrado"> <a href="contacto.html" class="menu__link "> CONTÁCTAME </a></li>
+            </ul>
+        </section>
+  
+    </nav> 
+    <!-- Fin NAV -->
+  
+    <!-- Inicio MAIN -->
+    <main class="formulario">
+
+        <section>
+            
+            <form action="">
+                <!-- Datos personales -->
+                <fieldset class="">
+                    <legend class="formSub centrado">
+                        Datos personales
+                    </legend>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label textoNegrilla">Ingresa tu nombre*</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre Completo" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="correo" class="form-label textoNegrilla">Ingresa tu correo*</label>
+                            <input type="email" class="form-control" id="correo" placeholder="name@dominio.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="cel" class="form-label textoNegrilla">Ingresa tu celular*</label>
+                            <input type="tel" class="form-control" id="cel" placeholder="No olvides el identificador" required>
+                        </div>
+                </fieldset>
+                
+                <!-- Tu Solicitud -->
+                <fieldset>
+                    <legend class="formSub centrado"> 
+                        Tu solicitud
+                    </legend>
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <option value="1">Quiero ser consultora Mary Kay</option>
+                        <option value="2">Quiero hacer un pedido</option> 
+                        <option value="3">Solicitud de información general</option>
+                        <option value="4">Felicitaciones</option>
+                        <option value="5">Queja o reclamo</option>
+                    </select>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Tu mensaje...</label>
+                    </div>                
+                </fieldset>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked required>
+                    <label class="form-check-label" for="flexSwitchCheckChecked">Aceptas que te contacte a tu correo electrónico o al celular para darte respuesta. *</label>
+                </div>       
+                <div class="centrado botonFormulario">
+                    <input type="submit" value="Enviar" class="btn btn-danger btn-sm consultora__boton">
+                </div>
+                <div class="derecha">
+                    <input type="reset" value="Borrar información ingresada" class="btn btn-link">
+                </div>    
+            </form>  
+        </section>
+
+    </main>
+    <!-- Fin MAIN -->
+  
+    <!-- Inicio FOOTER -->
+    <footer>
+     
+        <section class="footer">
+            <div class="footer__menu">
+                <ul class="footer__lista">
+                    <li> <a href="productos.html" class="footer__link"> PRODUCTOS </a> </li>
+                    <li> <a href="consultora.html" class="footer__link"> SÉ UNA CONSULTORA </a> </li>
+                    <li> <a href="tutoriales.html" class="footer__link"> TUTORIALES </a> </li>
+                    <li> <a href="contacto.html" class="footer__link"> CONTÁCTAME </a></li>
+                </ul>
+            </div>
+
+            <div class="footer__redes">
+                <div class="footer__sigueme">
+                    SÍGUEME:
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/marykay_noegarcia/" target="_blank"><img src="resources/ig.png" alt="" class="footer__icono"></a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/profile.php?id=100086910475662" target="_blank"><img src="resources/face.png" alt="" class="footer__icono"></a>
+                </div>
+            </div>   
+        </section>
+
+    </footer>
+    <!-- Fin FOOTER -->
+
+
+    <!-- Libreria animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+    "name": "d11_consultoramk-García",
+    "version": "1.0.0",
+    "description": "Mi nombre es Noelia García y soy consultora insdependiente Mary Kay, en este sitio se puede saber todo del negocio.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build-css": "node-sass --include-path scss scss/estilos.scss css/desafio.css",
+      "watch-css": "nodemon -e scss -x \"npm run build-css\""
+      
+    },
+    "author": "Noelia García",
+    "license": "ISC",
+    "devDependencies": {
+      "node-sass": "^6.0.1",
+      "nodemon": "^2.0.12"
+    }
+  }
