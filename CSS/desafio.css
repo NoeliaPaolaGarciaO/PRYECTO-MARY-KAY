@@ -12,11 +12,11 @@
     list-style-type: none; }
   
   body {
-    background-color: #FFEAC9; }
+    background-color: #ffffff; }
   
   /* Estilo al header */
   .header {
-    background-color: #FFEAC9; }
+    background-color: #ffffff; }
     .header__logo {
       justify-self: center;
       align-self: center; }
@@ -26,7 +26,7 @@
   
   /* Estilo al  Nav*/
   .menu {
-    background-color: #FF616D; }
+    background-color: #f89baa; }
     .menu__lista, .navSecundario__lista {
       display: flex;
       padding: 0% 10% 0% 10%;
@@ -37,7 +37,7 @@
       flex-flow: wrap;
       justify-content: space-around; }
     .menu__link, .navSecundario__link {
-      color: #FFEAC9;
+      color: #ffffff;
       font-family: 'Roboto', sans-serif;
       font-weight: 600;
       font-size: 15px;
@@ -47,7 +47,7 @@
     .menu__link:hover, .navSecundario__link:hover {
       padding: 2px;
       text-decoration: underline;
-      color: #FFEAC9; }
+      color: #fdfdfd; }
   
   /* Estilo Main */
   /* Modelado HOME */
@@ -82,7 +82,7 @@
     .navSecundario__link:hover {
       padding: 2px;
       text-decoration: underline;
-      color: #FFEAC9; }
+      color: #ffffff; }
   
   .productos {
     padding: 3% 5% 3% 5%; }
@@ -186,13 +186,13 @@
   h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #D83A56;
+    color: #440047;
     padding-bottom: 1%; }
   
   h4 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #D83A56;
+    color: #440047;
     text-align: center; }
   
   .centrado {
@@ -215,11 +215,11 @@
     font-weight: bold; }
   
   .fondoRosaFuerte {
-    background-color: #D83A56; }
+    background-color: #440047; }
   
   /* Estilo Footer */
   .footer {
-    background-image: linear-gradient(to right, #D83A56, #f89baa);
+    background-image: linear-gradient(to right, #8af8e0, #f89baa);
     padding: 15px 0px 10px 0px;
     display: grid;
     grid-template-areas: "margin5 menu sigueme margin6";
@@ -238,21 +238,21 @@
       justify-content: space-around;
       flex-wrap: wrap; }
     .footer__lista {
-      color: #FFEAC9;
+      color: #ffffff;
       font-family: 'Roboto', sans-serif;
       font-weight: 600;
       font-size: 18px; }
     .footer__link {
-      color: #FFEAC9;
+      color: #ffffff;
       font-family: 'Roboto', sans-serif;
       font-weight: 500;
       font-size: 14px; }
     .footer__link:hover {
       padding: 2px;
       text-decoration: underline;
-      color: #FFEAC9; }
+      color: #ffffff; }
     .footer__sigueme {
-      color: #a5094a;
+      color: #8af8e0;
       font-family: 'Roboto', sans-serif;
       font-size: 16px;
       font-weight: bold; }
